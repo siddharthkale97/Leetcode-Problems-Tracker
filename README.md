@@ -19,4 +19,4 @@ The list - [Blind 75 Must Do Leetcode](https://leetcode.com/list/xi4ci4ig/)
 
 Thank you all for collaborating in this project to help us all!
 Sincere thanks to -
-1. Paresh Pandit - for contributing Java code.
+1. [Paresh Pandit](https://github.com/Paresh319) - for contributing Java code.
