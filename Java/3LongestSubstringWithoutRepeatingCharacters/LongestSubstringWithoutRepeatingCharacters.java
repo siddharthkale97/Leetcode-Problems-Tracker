@@ -1,7 +1,7 @@
 /*
-Given a string s, find the length of the longest substring without repeating characters.
+3. Longest Substring Without Repeating Characters -
 
- 
+Given a string s, find the length of the longest substring without repeating characters.
 
 Example 1:
 
@@ -23,10 +23,13 @@ Example 4:
 
 Input: s = ""
 Output: 0
-
-
-Runtime: 6 ms, faster than 61.25% of Java online submissions for Longest Substring Without Repeating Characters.
-Memory Usage: 39.4 MB, less than 37.39% of Java online submissions for Longest Substring Without Repeating Characters.
+*/
+/*
+Approach-
+Generate a hashset.
+loop over every character,check if character exists in hashmap, if yes remove
+if not add.
+compare with max, if greater than max, set max. Finally return max
 */
 class Solution {
     public int lengthOfLongestSubstring(String s) {
@@ -53,3 +56,7 @@ class Solution {
         
 }
 }
+/*
+Runtime: 6 ms, faster than 61.25% of Java online submissions for Longest Substring Without Repeating Characters.
+Memory Usage: 39.4 MB, less than 37.39% of Java online submissions for Longest Substring Without Repeating Characters.
+*/
