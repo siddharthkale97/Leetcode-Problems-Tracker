@@ -7,6 +7,8 @@ Given an integer array nums of unique elements, return all possible subsets (the
 The solution set must not contain duplicate subsets. Return the solution in any order.
 
 Approach is recursion - The decision for recursion is whether to include the element in the sub set or not ... First case include and recurse.... second case exclude and recurse.
+Runtime: 8 ms, faster than 5.53% of Java online submissions for Subsets.
+Memory Usage: 38.9 MB, less than 96.28% of Java online submissions for Subsets.
 */
 class Solution {
     public List<List<Integer>> res = new ArrayList<>();
