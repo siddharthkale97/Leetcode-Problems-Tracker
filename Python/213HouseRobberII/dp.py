@@ -33,7 +33,6 @@ class Solution:
         a1 = dp(nums[0:len(nums) - 1])
         a2 = dp(nums[1:len(nums)])
         return max(a1, a2)
-        # return max(dfs(0,len(nums)-1, 0), dfs(1,0, 0))
 
 '''
 Runtime: 28 ms, faster than 89.13% of Python3 online submissions for House Robber II.
