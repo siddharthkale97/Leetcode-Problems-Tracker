@@ -1,7 +1,7 @@
 /*
-Add a checked arrar along with visited 
-Becaase after we have seen through one dfs that none of the children node have any cycles then they do not need to be checked again 
-becasue from any node they wont be having any cycles. This is the important part here because without this the solution will give TLE.
+Add a checked array along with visited 
+Because after we have seen through one dfs that none of the children node have any cycles then they do not need to be checked again 
+since from any node they wont be having any cycles. This is an important part here because without this the solution will give TLE.
 */
 class Solution {
     
