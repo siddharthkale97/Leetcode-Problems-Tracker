@@ -2,7 +2,7 @@ class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
         
         int oldColor = image[sr][sc];
-        if(oldColor != newColor) dfs(image, sr, sc, newColor, oldColor); //this line is very important..only call dfs if oldcolor != newcolor other wise it will go to stack overflow. 
+        if(oldColor != newColor) dfs(image, sr, sc, newColor, oldColor); //this line is very important..only call dfs if oldcolor != newcolor other wise it will throw stack overflow. 
         return image;
         
     }
