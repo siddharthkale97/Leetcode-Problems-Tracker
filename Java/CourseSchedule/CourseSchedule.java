@@ -8,8 +8,6 @@ class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         HashMap<Integer, List<Integer>> hm = new HashMap<>();
         
-       
-        
         for(int[] relation: prerequisites)
         {
             if (hm.containsKey(relation[1])) {
@@ -20,8 +18,6 @@ class Solution {
                 hm.put(relation[1], nextCourses);
               }
         }
-        
-        
         
         boolean[] checked = new boolean[numCourses];
         boolean[] visited = new boolean[numCourses];
