@@ -31,7 +31,7 @@ class Solution {
                         res.add(new ArrayList<Integer>(l));
                         k++;
                         j--;
-                        while (k < j && nums[k] == nums[k - 1])
+                        while (k < j && nums[k] == nums[k - 1])  //this line is important u need to skip all the duplicate elements.
                         ++k;
                     }
                 }
