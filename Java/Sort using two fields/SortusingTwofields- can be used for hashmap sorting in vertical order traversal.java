@@ -7,3 +7,18 @@
        c = record1.getSchool().compareTo(record2.getSchool());
     return c;
 }
+
+Also
+
+List<String> someList = new ArrayList<>(map.keySet());
+Collections.sort(someList, new Comparator<int[]>(){
+@Override
+    public int compare(int[] n1, int[] n2)
+    {
+        int c = 0;
+        c = n1[0] - n2[0];
+        if(c == 0)
+            c = n1[1] - n2[1];
+        return c;
+    }
+});
